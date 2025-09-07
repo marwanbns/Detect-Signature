@@ -51,12 +51,19 @@ pip install -r requirements.txt
 
 ## Utilisation
 1.Lancer l'application
+'''
 python main.py
+'''
 2.Interface Tkinter :
+
     1. Convert PDF -> Images : transformation PDF en PNG
+
     2. Extraire texte avec OCR : extraction de texte brut
-    3. Détecter pavés de signature : analyse via OpenA
+
+    3. Détecter pavés de signature : analyse via OpenAI
+
     4. Annoter les images : rectangles sur les zones trouvées
+    
     5. Prévisualiser images : naviguer entre toutes les pages annotées
 
 ## Auteur
