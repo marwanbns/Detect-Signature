@@ -1,0 +1,23 @@
+# --- Python ---
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+.venv/
+venv/
+env/
+
+# --- Inputs ---
+inputs/pdf/*
+!inputs/pdf/.gitkeep
+
+# --- Outputs ---
+outputs/images/*
+!outputs/images/.gitkeep
+
+outputs/extracted_texts/*
+!outputs/extracted_texts/.gitkeep
+
+outputs/annotated_images/*
+!outputs/annotated_images/.gitkeep
