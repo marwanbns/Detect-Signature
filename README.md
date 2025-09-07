@@ -1,6 +1,7 @@
 # Détection de pavés de signature dans les contrats PDF
 **Description**
 Ce projet permet d’analyser automatiquement des contrats PDF afin de :
+
 **Convertir** le PDF en images page par page
 
 **Extraire** le texte avec OCR (Tesseract)
@@ -29,6 +30,7 @@ pip install -r requirements.txt
 "sk-xxxxxxxxxxxxx"
 
 ## Arborescence
+```
 .
 ├── key.txt
 ├── main.py
@@ -45,6 +47,7 @@ pip install -r requirements.txt
 │   ├── annotated_images/
 │   └── signature_keywords.json
 └── requirements.txt
+```
 
 ## Utilisation
 1.Lancer l'application
